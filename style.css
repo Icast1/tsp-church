@@ -109,6 +109,13 @@ main {
     padding: 2rem;
     display: flex;
     align-items: center;
+    font-family: 'Bebas Neue';
+}
+
+.sec1-img img {
+    border-radius: 1.5rem;
+    padding: .5rem;
+    margin-top: .5rem;
 }
 
 .container2 {
@@ -122,18 +129,14 @@ main {
     font-family: 'Bebas Neue';
 }
 
-iframe {
-    margin-top: 1.2rem;
-    width: 100%;
+.container2 p {
+    margin-top: .5rem;
+    font-size: 1.1rem;
 }
 
 @media (min-width: 600px) {
     #sec1 {
         height: 100vh;
-    }
-
-    iframe {
-        height: 50vh;
     }
 
     .container2 h1 {
