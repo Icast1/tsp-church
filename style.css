@@ -252,7 +252,7 @@ main {
 /* SECTION 3 BEGINS BELOW THIS LINE */
 
 #sec3 {
-    height: 59vh;
+    height: 70vh;
 }
 
 .container3 {
@@ -277,10 +277,4 @@ iframe {
     font-family: 'Bebas Neue';
     font-size: 21px;
     margin-top: 2rem;
-}
-
-@media (max-width: 600px) {
-    #sec3 {
-        height: 70vh;
-    }
 }
