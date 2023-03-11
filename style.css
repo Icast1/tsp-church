@@ -272,3 +272,29 @@ iframe {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
+
+/* DARK BOX STARTES BELOW THIS LINE */
+
+#dark-box {
+    height: 25vh;
+    padding: 0 50px;
+}
+
+.card {
+    background-color: #000000;
+    height: 100%;
+}
+
+.main-img img {
+    height: 11vh;
+    width: 23.5vw;
+    padding: 7px;
+}
+
+#dark-box h6 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Bebas Neue';
+    padding: 10px 20px;
+}
