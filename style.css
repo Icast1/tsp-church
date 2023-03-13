@@ -299,10 +299,8 @@ iframe {
     height: 100%;
 }
 
-.main-img img {
-    padding: 7px;
-    height: 5%;
-    width: 25%;
+.main-logo {
+    width: 18%;
 }
 
 #dark-box h6 {
@@ -315,7 +313,7 @@ iframe {
 }
 
 @media (min-width: 600px) {
-    .main-img img {
+    .main-logo {
         width: 15%;
     }
 
