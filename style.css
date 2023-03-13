@@ -273,6 +273,20 @@ iframe {
     border-bottom: 1px solid black;
 }
 
+@media (min-width: 600px) {
+    #sec3 {
+        height: 80vh;
+    }
+
+    iframe {
+        height: 40vh;
+    }
+
+    #sec3 p {
+        font-size: 25px;
+    }
+}
+
 /* DARK BOX STARTES BELOW THIS LINE */
 
 #dark-box {
@@ -286,9 +300,9 @@ iframe {
 }
 
 .main-img img {
-    height: 11vh;
-    width: 23.5vw;
     padding: 7px;
+    height: 5%;
+    width: 25%;
 }
 
 #dark-box h6 {
@@ -297,4 +311,28 @@ iframe {
     font-weight: 400;
     font-family: 'Bebas Neue';
     padding: 10px 20px;
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    .main-img img {
+        width: 15%;
+    }
+
+    #dark-box h6 {
+        text-align: center;
+    }
+}
+
+/* FOOT BEGINS BELOW THIS LINE */
+
+#foot {
+    background-color: black;
+    height: 5vh;
+    padding: 20px 0;
+}
+
+.foot-text p {
+    color: #353935;
+    text-align: center;
 }
