@@ -328,6 +328,16 @@ iframe {
     }
 }
 
+@media (min-width: 1600px) {
+    #sec3 {
+        padding: 0 22rem;
+    }
+
+    iframe {
+        height: 50vh;
+    }
+}
+
 /* DARK BOX STARTES BELOW THIS LINE */
 
 #dark-box {
