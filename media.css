@@ -48,3 +48,25 @@ img {
     color: black;
     background-color: white;
 }
+
+/* MEDIA SEC1 BEGINS BELOW */
+
+#medsec1 {
+    height: 75vh;
+    background-color: black;
+    color: #fff;
+}
+
+.medsec1-text {
+    padding: 2rem;
+    font-family: 'Bebas Neue';
+}
+
+.medsec1-text h1 {
+    font-size: 38px;
+}
+
+.medsec1-text p {
+    margin-top: 2rem;
+    font-size: 25px;
+}
