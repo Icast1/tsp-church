@@ -63,10 +63,112 @@ img {
 }
 
 .medsec1-text h1 {
-    font-size: 38px;
+    font-size: 32px;
+    text-align: center;
 }
 
-.medsec1-text p {
-    margin-top: 2rem;
+.whiteboxes {
+    padding: 0 2rem;
+}
+
+.whiteboxes p {
     font-size: 25px;
+    text-align: center;
+    color: black;
+    font-family: 'Bebas Neue';
+    padding: 2rem;
+    border-radius: 25px;
+}
+
+.wb1 {
+    background-color: #fff;
+}
+
+.whiteline {
+    background-color: #fff;
+    height: 7vh;
+    width: .75vw;
+    margin: 0 auto;
+}
+
+.wb2 {
+    background-color: #fff;
+}
+
+@media (max-width: 360px) {
+    #medsec1 {
+        height: 80vh;
+    }
+}
+
+@media (min-width: 375px) {
+    #medsec1 {
+        height: 80vh;
+    }
+}
+
+@media (min-width: 390px) {
+    #medsec1 {
+        height: 59vh;
+    }
+}
+
+@media (min-width: 412px) {
+    #medsec1 {
+        height: 55vh;
+    }
+}
+
+@media (min-width: 414px) {
+    #medsec1 {
+        height: 57vh;
+    }
+}
+
+@media (min-width: 540px) {
+    #medsec1 {
+        height: 69vh;
+    }
+}
+
+@media (min-width: 768px) {
+    #medsec1 {
+        height: 50vh;
+    }
+
+    .whiteboxes {
+        margin-top: 2rem;
+    }
+
+    .medsec1-text h1 {
+        margin-top: 2rem;
+    }
+
+    .whiteboxes p {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 820px) {
+    #medsec1 {
+        height: 50vh;
+    }
+
+    .whiteboxes {
+        margin-top: 3rem;
+    }
+
+    .medsec1-text h1 {
+        margin-top: 2.3rem;
+    }
+
+    .whiteboxes p {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 912px) {
+    #medsec1 {
+        height: 42vh;
+    }
 }
