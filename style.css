@@ -401,9 +401,17 @@ iframe {
     }
 }
 
-@media (min-width: 375px) {
+@media (min-width: 375px) and (min-height: 667px) {
     main {
         height: 90vh;
+    }
+
+    #sec3 {
+        height: 80vh;
+    }
+
+    .main-logo {
+        width: 10%;
     }
 }
 
@@ -421,21 +429,29 @@ iframe {
     }
 }
 
-@media (min-width: 393px) {
+@media (min-width: 300px) {
     .sec1-img img {
-        width: 35%;
+        width: 25%;
     }
 
     main {
-        height: 70vh;
+        height: 85vh;
     }
 
     #dark-box {
         margin-top: 2rem;
     }
+
+    #sec3 {
+        height: 70vh;
+    }
+
+    .main-logo {
+        width: 28%;
+    }
 }
 
-@media (min-width: 414px) {
+@media (min-width: 400px) {
     #sec1 {
         height: 70vh;
     }
@@ -447,19 +463,15 @@ iframe {
     #dark-box {
         margin: -1rem;
     }
-}
 
-@media (min-width: 508px) {
-    .main-logo {
-        width: 20%;
-    }
-
-    #dark-box h6 {
-        text-align: center;
+    #sec3 {
+        height: 70vh;
     }
 }
 
-@media (min-width: 540px) {
+
+
+@media (min-width: 500px) {
     .main-logo {
         width: 15%;
     }
@@ -471,6 +483,10 @@ iframe {
     #dark-box {
         margin-top: 2rem;
     }
+
+    #sec3 {
+        height: 60vh;
+    }
 }
 
 @media (min-width: 600px) {
@@ -478,8 +494,20 @@ iframe {
         width: 15%;
     }
 
+    #sec1 {
+        height: 40vh;
+    }
+
+    .sec1-img img {
+        width: 40%;
+    }
+
     #dark-box h6 {
         text-align: center;
+    }
+
+    #sec3 {
+        height: 75vh;
     }
 }
 
@@ -489,7 +517,23 @@ iframe {
     }
 
     .main-logo {
-        width: 10%;
+        width: 15%;
+    }
+
+    main {
+        height: 50vh;
+    }
+
+    #sec3 {
+        height: 75vh;
+    }
+
+    #sec1 {
+        height: 40vh;
+    }
+
+    .sec1-img img {
+        width: 15vw;
     }
 }
 
@@ -559,27 +603,35 @@ iframe {
     }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 800px) {
     .main-logo {
-        width: 9%;
+        width: 11%;
     }
 
     #dark-box {
         margin-top: 0rem;
     }
+
+    #sec3 {
+        height: 75vh;
+    }
 }
 
-@media (min-width: 912px) {
+@media (min-width: 900px) {
     #dark-box {
         margin-top: -15rem;
     }
 
     .main-logo {
-        width: 15%;
+        width: 11%;
     }
 
     iframe {
         height: 30vh;
+    }
+
+    #sec3 {
+        height: 87vh;
     }
 }
 
@@ -587,19 +639,49 @@ iframe {
     .main-logo {
         width: 9%;
     }
+
+    #sec3 {
+        height: 87vh;
+    }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1100px) {
     .main-logo {
-        width: 10%;
+        width: 8%;
     }
 
     #dark-box h6 {
         text-align: center;
     }
+
+    #sec3 {
+        height: 87vh;
+    }
+
+    .sec1-img img {
+        width: 38%;
+    }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
+    .main-logo {
+        width: 8%;
+    }
+
+    #dark-box h6 {
+        text-align: center;
+    }
+
+    #sec3 {
+        height: 90vh;
+    }
+
+    .sec1-img img {
+        width: 35%;
+    }
+}
+
+@media (min-width: 1300px) {
     .main-logo {
         width: 6%;
     }
@@ -608,8 +690,52 @@ iframe {
         text-align: center;
     }
 
+    #sec3 {
+        height: 90vh;
+    }
+
+    .sec1-img img {
+        width: 32%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .main-logo {
+        width: 7%;
+    }
+
+    #dark-box h6 {
+        text-align: center;
+    }
+
     #dark-box {
         margin-top: 4rem;
+    }
+
+    #sec3 {
+        height: 60vh;
+    }
+
+    .sec1-img img {
+        width: 35%;
+    }
+}
+
+@media (min-width: 1500px) {
+    .main-logo {
+        width: 6%;
+    }
+
+    #dark-box h6 {
+        text-align: center;
+    }
+
+    #sec3 {
+        height: 60vh;
+    }
+
+    .sec1-img img {
+        width: 32%;
     }
 }
 
@@ -621,6 +747,33 @@ iframe {
     #dark-box h6 {
         text-align: center;
     }
+
+    #sec3 {
+        height: 60vh;
+    }
+
+    .sec1-img img {
+        width: 32%;
+    }
+}
+
+@media (min-width: 1800px) {
+    .main-logo {
+        width: 6%;
+    }
+
+    #dark-box h6 {
+        text-align: center;
+    }
+
+    .sec1-img img {
+        width: 29%;
+    }
+
+    #sec3 {
+        height: 60vh;
+    }
+
 }
 
 /* FOOT BEGINS BELOW THIS LINE */

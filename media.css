@@ -18,157 +18,75 @@ img {
 }
 
 /* HEADER BEGINS BELOW THIS LINE */
-
-#top-media {
-    height: 50vh;
-}
-
-.top-media-img img {
+#top-media .tmi1 {
+    height: 100vh;
     position: absolute;
-    height: 50vh;
-    width: 100%;
     object-fit: cover;
+    transform: scaleX(-1)
 }
 
 .top-media-text {
-    height: 50vh;
     position: relative;
+    height: 100vh;
+    padding: 2rem;
+    color: #fff;
     font-family: 'Bebas Neue';
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .top-media-text h1 {
-    border: 1px solid white;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
-    padding-bottom: 12px;
+    padding-top: 3rem;
+    font-size: 38px;
+}
+
+.top-media-text p {
+    padding-top: 1.5rem;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.top-media-text h6 {
+    margin-top: 5rem;
+}
+
+.top-media-text a {
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    padding: 1rem;
+    background-color:
+        black;
+}
+
+.top-media-text a:hover {
     color: black;
-    background-color: white;
-}
-
-/* MEDIA SEC1 BEGINS BELOW */
-
-#medsec1 {
-    height: 75vh;
-    background-color: black;
-    color: #fff;
-}
-
-.medsec1-text {
-    padding: 2rem;
-    font-family: 'Bebas Neue';
-}
-
-.medsec1-text h1 {
-    font-size: 32px;
-    text-align: center;
-}
-
-.whiteboxes {
-    padding: 0 2rem;
-}
-
-.whiteboxes p {
-    font-size: 25px;
-    text-align: center;
-    color: black;
-    font-family: 'Bebas Neue';
-    padding: 2rem;
-    border-radius: 25px;
-}
-
-.wb1 {
     background-color: #fff;
 }
 
-.whiteline {
-    background-color: #fff;
-    height: 7vh;
-    width: .75vw;
-    margin: 0 auto;
+.top-media-img2 {
+    filter: brightness(1.1);
+    width: 59%;
+    margin-top: -21rem;
+    display: flex;
+    margin-left: 40%;
 }
 
-.wb2 {
-    background-color: #fff;
+.top-media-img2 img {
+    border-radius: 130px 0 0 0;
 }
 
-@media (max-width: 360px) {
-    #medsec1 {
-        height: 80vh;
-    }
-}
+/* MEDIA-SEC1 BEGINS BELOW */
 
-@media (min-width: 375px) {
-    #medsec1 {
-        height: 80vh;
-    }
-}
-
-@media (min-width: 390px) {
-    #medsec1 {
-        height: 59vh;
-    }
-}
-
-@media (min-width: 412px) {
-    #medsec1 {
-        height: 55vh;
-    }
-}
-
-@media (min-width: 414px) {
-    #medsec1 {
-        height: 57vh;
-    }
-}
-
-@media (min-width: 540px) {
-    #medsec1 {
-        height: 69vh;
-    }
-}
-
-@media (min-width: 768px) {
-    #medsec1 {
-        height: 50vh;
-    }
-
-    .whiteboxes {
-        margin-top: 2rem;
-    }
-
-    .medsec1-text h1 {
-        margin-top: 2rem;
-    }
-
-    .whiteboxes p {
-        font-size: 30px;
-    }
-}
-
-@media (min-width: 820px) {
-    #medsec1 {
-        height: 50vh;
-    }
-
-    .whiteboxes {
-        margin-top: 3rem;
-    }
-
-    .medsec1-text h1 {
-        margin-top: 2.3rem;
-    }
-
-    .whiteboxes p {
-        font-size: 30px;
-    }
-}
-
-@media (min-width: 912px) {
-    #medsec1 {
-        height: 42vh;
-    }
+#media-sec1 {
+    height: 100vh;
+    background-image: linear-gradient(180deg,
+            hsl(17deg 100% 74%) 0%,
+            hsl(17deg 100% 77%) 17%,
+            hsl(18deg 100% 80%) 33%,
+            hsl(18deg 100% 82%) 48%,
+            hsl(18deg 100% 85%) 61%,
+            hsl(18deg 100% 88%) 73%,
+            hsl(18deg 100% 91%) 84%,
+            hsl(19deg 100% 94%) 93%,
+            hsl(19deg 100% 97%) 98%,
+            hsl(0deg 0% 100%) 100%);
 }
