@@ -199,6 +199,7 @@ main {
 iframe {
     width: 100%;
     margin-top: 2.5rem;
+    margin-bottom: 4rem;
     height: 27vh;
     border-radius: 25px;
     box-shadow: -10px 10px 0px rgba(33, 33, 33, 1),
@@ -220,9 +221,10 @@ iframe {
     text-align: center;
     font-family: 'Bebas Neue';
     font-size: 21px;
-    margin-top: 4rem;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 /* DARK BOX STARTES BELOW THIS LINE */
