@@ -237,6 +237,8 @@ iframe {
 .card {
     background-color: #000000;
     height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .main-logo {
