@@ -112,20 +112,23 @@ img {
     border-bottom: 5px solid rgb(179, 15, 255);
     background-color: rgb(255, 255, 255);
     text-align: end;
-    padding: 0 0 1rem 2rem;
+    padding: 0 0 1rem 3rem;
 }
 
 .ig-cont2 h6 {
     margin-top: 3rem;
     text-align: end;
+    margin-bottom: 3rem;
 }
 
 .ig-cont2 a {
     text-decoration: none;
     font-family: 'Bebas Neue';
-    color: white;
+    color: #fff;
     font-size: 21px;
     padding: .75rem;
     background-color:
-        rgb(242, 210, 67);
+        rgb(238, 198, 20);
 }
+
+/* MEDIA-SEC2 BEGINS BELOW */
