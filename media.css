@@ -136,6 +136,17 @@ img {
         rgb(238, 198, 20);
 }
 
+/* INTERSECT BEGINS BELOW THIS LINE */
+
+#intersect {
+    background-color: #f1f1f1;
+    padding: 50px;
+    margin-bottom: 5rem;
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Bebas Neue';
+}
+
 /* MEDIA-SEC2 BEGINS BELOW */
 
 #media-sec2 {
