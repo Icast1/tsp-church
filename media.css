@@ -18,57 +18,54 @@ img {
 }
 
 /* HEADER BEGINS BELOW THIS LINE */
-#top-media .tmi1 {
-    height: 100vh;
-    position: absolute;
-    transform: scaleX(-1);
-}
 
-.top-media-text {
-    height: 100vh;
-    position: relative;
-    padding: 2rem;
+#top-media {
+    background-color: #d1653d;
     color: #fff;
-    font-family: 'Bebas Neue';
+    padding: 10px;
+    font-family: bebas neue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.top-media-text h1 {
-    padding-top: 3rem;
-    font-size: 38px;
+.top-media-cont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
 }
 
-.top-media-text p {
-    padding-top: 1.5rem;
-    font-size: 22px;
-    font-weight: 100;
-}
-
-.top-media-text h6 {
-    margin-top: 5rem;
-}
-
-.top-media-text a {
-    text-decoration: none;
-    color: white;
+.top-media-cont h1 {
     font-size: 21px;
-    padding: 1rem;
-    background-color:
-        rgb(0, 0, 0);
 }
 
-.top-media-text a:hover {
-    color: black;
-    background-color: #fff;
+.top-media-cont p {
+    display: none;
 }
 
-.top-media-img2 {
-    filter: brightness(1.1);
-
+#top-media img {
+    width: 70px;
 }
 
-.top-media-img2 img {
-    border-radius: 200px 0 0 0;
-    width: 235px;
+.watch {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.top-media-cont2 {
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 1100px;
+}
+
+.top-media-cont2 p {
+    text-align: center;
+    font-size: 22px;
+    border: 1px solid white;
+    padding: 10px 5px;
+    margin-bottom: 10px;
 }
 
 /* MEDIA-SEC1 BEGINS BELOW */
@@ -76,12 +73,15 @@ img {
 #media-sec1 {
     background-color: rgb(255, 255, 255);
     padding: 0 2rem;
-    color: rgb(179, 15, 255);
+    color: black;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 5rem;
 }
 
 .ig-cont1 {
-    border-top: 5px solid rgb(179, 15, 255);
-    border-right: 5px solid rgb(179, 15, 255);
+    border-top: 5px solid black;
+    border-right: 5px solid black;
 }
 
 .ig-cont1 img {
@@ -104,8 +104,8 @@ img {
 }
 
 .ig-cont2 {
-    border-left: 5px solid #b30fff;
-    border-bottom: 5px solid rgb(179, 15, 255);
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
 }
 
 .ig-cont2 p {
@@ -113,7 +113,7 @@ img {
     font-size: 12.5px;
     text-transform: uppercase;
     line-height: 20px;
-    color: rgb(179, 15, 255);
+    color: black;
     background-color: rgb(255, 255, 255);
     text-align: end;
     padding: 0 0 1rem 0;
@@ -132,8 +132,7 @@ img {
     color: #fff;
     font-size: 21px;
     padding: .75rem;
-    background-color:
-        rgb(238, 198, 20);
+    background-color: #d1653d;
 }
 
 /* INTERSECT BEGINS BELOW THIS LINE */
@@ -151,6 +150,9 @@ img {
 
 #media-sec2 {
     padding: 0 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 2rem;
 }
 
 #media-sec2 .br1 {
@@ -158,8 +160,8 @@ img {
 }
 
 .zoom-cont {
-    border-top: 5px solid rgb(54, 194, 249);
-    border-left: 5px solid rgb(54, 194, 249);
+    border-top: 5px solid black;
+    border-left: 5px solid black;
 }
 
 .zoom-img {
@@ -177,7 +179,7 @@ img {
     margin-top: 1rem;
     letter-spacing: 2px;
     font-family: 'Bebas Neue';
-    color: rgb(54, 194, 249);
+    color: black;
     margin-left: 20%;
     text-align: end;
 }
@@ -189,12 +191,12 @@ img {
     margin-top: .25rem;
     text-align: end;
     margin-left: 30%;
-    color: rgb(54, 194, 249);
+    color: black;
 }
 
 .zoom-cont2 {
-    border-bottom: 5px solid rgb(54, 194, 249);
-    border-right: 5px solid rgb(54, 194, 249);
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
 }
 
 .zoom-cont2 p {
@@ -204,8 +206,7 @@ img {
     line-height: 20px;
     padding: 0 0 1.5rem 0;
     margin-right: 40%;
-    color: rgb(54, 194, 249);
-    ;
+    color: black;
 }
 
 #media-sec2 h6 {
@@ -220,7 +221,7 @@ img {
     font-size: 21px;
     padding: .75rem;
     background-color:
-        rgb(54, 194, 249);
+        #d1653d;
 }
 
 /* BOX STARTS BELOW THIS LINE */
@@ -289,6 +290,12 @@ img {
     border-bottom: 1px solid black;
 }
 
+.col2 .hands {
+    width: 25px;
+    padding-right: 10px;
+    object-fit: cover;
+}
+
 .col2 h1 {
     margin-top: 2rem;
     border-bottom: 1px solid black;
@@ -324,4 +331,119 @@ img {
 .foot-text p {
     color: #808080;
     text-align: center;
+}
+
+/* MEDIA QUIERIES */
+
+@media (max-width: 450px) {
+    .top-media-cont img {
+        display: none;
+    }
+
+    .line1 h1 {
+        display: none;
+    }
+
+    .line2 h1 {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .line1 h1 {
+        display: none;
+    }
+
+    .line2 h1 {
+        display: none;
+    }
+
+    .top-media-cont2 p {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    #intersect {
+        padding: 110px;
+        font-size: 22px;
+    }
+
+    .ig-cont1 h1 {
+        font-size: 60px;
+    }
+
+    .ig-cont1 h2 {
+        font-size: 35px;
+    }
+
+    .ig-cont2 p {
+        font-size: 20px;
+        line-height: 25px;
+        margin-left: 55%;
+        margin-bottom: 30px;
+    }
+
+    .ig-cont1 img {
+        width: 70px;
+    }
+
+    .zoom-img img {
+        width: 70px;
+    }
+
+    #media-sec2 .h1p1 {
+        font-size: 55px;
+    }
+
+    #media-sec2 .h1p2 {
+        font-size: 35px;
+    }
+
+    .zoom-cont2 p {
+        font-size: 20px;
+        line-height: 25px;
+        margin-right: 55%;
+        margin-bottom: 30px;
+    }
+
+    #box {
+        margin-top: 10rem;
+    }
+}
+
+@media (min-width: 800px) {
+    .top-media-text h1 {
+        font-size: 70px;
+    }
+
+    .top-media-text p {
+        font-size: 30px;
+    }
+
+    .top-media-text a {
+        font-size: 30px;
+    }
+
+    .ytlogo img {
+        visibility: visible;
+    }
+
+    .ytlogo {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .ytlogo img {
+        width: 250px;
+        margin-top: 300px;
+        margin-right: 50px;
+    }
+
+}
+
+@media (max-width: 1500px) {
+    .top-media-cont2 p {
+        display: none;
+    }
 }
