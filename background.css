@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    font: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* header STARTS HERE */
+
+header {
+    background-color: #d1653d;
+    color: white;
+    padding: 50px 20px 50px 20px;
+}
+
+header h6 {
+    font-size: 16px;
+    border: 1px solid white;
+    width: 100px;
+    padding: 5px;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+
+header h1 {
+    font-family: 'Bebas Neue';
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+/* body1 STARTS HERE */
+
+.body1 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body1 .marco {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+    width: 300px;
+    max-width: 650px;
+    border-radius: 10px;
+}
+
+.widgets .igicon {
+    width: 35px;
+    margin-top: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.widgets .yticon {
+    width: 35px;
+    margin-top: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+/* sidephotos STARTS HERE */
+
+.side-pic-top {
+    display: flex;
+    justify-content: center;
+}
+
+.side-pic-top img {
+    margin-bottom: 2px;
+}
+
+.sidephotos {
+    /* display: none; */
+}
+
+.sidephotos2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidephotos2 .pic1 {
+    margin-top: 5px;
+}
+
+.sidephotos2 .pic2 {
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.sidephotos img {
+    width: 300px;
+}
+
+/* shaded-area STARTS BELOW */
+
+.shaded-area {
+    padding: 50px;
+    background-color: #f1f1f1;
+    color: black;
+    text-align: center;
+}
+
+.shaded-text {
+    padding: 0px 10px;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.shaded-area h1 {
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.shaded-area p {
+    margin-top: 10px;
+    font-size: 18px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* leaders STARTS HERE */
+
+.leaders {
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    color: black;
+}
+
+.leader {
+    padding: 10px;
+}
+
+.leader .marcosit {}
+
+.leader img {
+    width: 175px;
+    border-radius: 20px;
+    object-fit: inherit;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.leader h1 {
+    font-weight: 100;
+}
+
+.leader h6 {
+    font-weight: 600;
+}
+
+/* aboutus STARTS HERE */
+
+.aboutus {
+    padding: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.about-text {
+    max-width: 1100px;
+    margin: 0 auto;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 0pc 10px;
+}
+
+.aboutus h1 {
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.aboutus p {
+    margin-top: 10px;
+    font-size: 18px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* calvary STARTS HERE */
+
+.calvary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.cav-logo img {
+    width: 300px;
+    margin-top: 40px;
+}
+
+.cav-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 0px 40px;
+}
+
+.cav-text h1 {
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.cav-text p {
+    margin-top: 10px;
+}
+
+/* col2 STARTS HERE */
+
+#nav-bottom {
+    padding: 50px;
+}
+
+.col1 h1 {
+    border-bottom: 1px solid black;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 5px 0;
+}
+
+.col1 ul {
+    list-style-type: none;
+}
+
+.col1 li {
+    margin-top: 1.5rem;
+}
+
+.col1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.col1 a:hover {
+    border-bottom: 1px solid black;
+}
+
+.col2 .hands {
+    width: 25px;
+    padding-right: 10px;
+    object-fit: cover;
+}
+
+.col2 h1 {
+    margin-top: 2rem;
+    border-bottom: 1px solid black;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 5px 0;
+}
+
+.col2 ul {
+    list-style-type: none;
+}
+
+.col2 li {
+    margin-top: 1.5rem;
+}
+
+.col2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.col2 a:hover {
+    border-bottom: 1px solid black;
+}
+
+/* foot STARTS HERE */
+
+#foot {
+    background-color: black;
+    padding: 10px 0;
+}
+
+.foot-text p {
+    color: #808080;
+    text-align: center;
+}
+
+@media (min-width: 400px) {
+    .cav-text {
+        max-width: 390px;
+    }
+}
+
+@media (min-width: 650px) {
+    .wholebody {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .side-pic-top {
+        display: flex;
+
+    }
+
+    .side-pic-top img {
+        width: 150px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    .sidephotos2 {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .sidephotos2 .pic1 {
+        width: 150px;
+        margin-top: -17px;
+    }
+
+    .sidephotos2 .pic2 {
+        width: 148px;
+        margin-top: 1px;
+    }
+
+}
+
+@media (min-width: 720px) {
+    .leaders {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .leader img {
+        width: 100px;
+    }
+
+    .calvary {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .leader img {
+        width: 150px;
+    }
+
+    .calvary {
+        width: 90%;
+        padding: 50px;
+    }
+
+    .cav-text {
+        max-width: none;
+    }
+}
+
+@media (min-width: 800px) {
+    .leaders {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .leader img {
+        width: 120px;
+    }
+
+    .side-pic-top img {
+        width: 180px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    .sidephotos2 .pic1 {
+        width: 180px;
+    }
+
+    .sidephotos2 .pic2 {
+        width: 180px;
+    }
+
+    .leader img {
+        width: 200px;
+    }
+
+    .calvary {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1020px) {
+    .leaders {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .leader img {
+        width: 200px;
+    }
+
+    .shaded-area p {
+        line-height: 25px;
+    }
+
+    .side-pic-top img {
+        width: 200px;
+    }
+
+    .sidephotos2 .pic1 {
+        width: 200px;
+    }
+
+    .sidephotos2 .pic2 {
+        width: 200px;
+    }
+
+    .shaded-area {
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutus {
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .calvary {
+        gap: 30px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .body1 .marco {
+        width: 500px;
+    }
+
+    .side-pic-top img {
+        width: 300px;
+    }
+
+    .sidephotos2 .pic1 {
+        width: 300px;
+    }
+
+    .sidephotos2 .pic2 {
+        width: 297px;
+    }
+
+    .leader img {
+        width: 300px;
+    }
+}
+
+/* FORBIDDEN CODE */
+
+/* .body2 {
+    padding: 0px 20px 20px 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.seg1 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.seg1 img {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.body2 h1 {
+    font-weight: 100;
+}
+
+.body2 h6 {
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.body2 p {
+    margin-top: 10px;
+    max-width: 650px;
+} */

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Secret Place</title>
+    <link rel="stylesheet" href="contact.js">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="shortcut icon" href="TSP.jpg" style="border-radius: 25px;" type="image/x-icon">
+    <link rel="shortcut icon" href="TSP.jpg" style="border-radius: 25px;" type="image/x-icon">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script src="contact.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("jwD5xxKIjOkgmx_j7");
+        })();
+    </script>
+</head>
+
+<header>
+    <form onsubmit="sendMail()">
+        <h3>Let us pray for you</h3>
+        <input type="text" placeholder="Your name" id="Name" required>
+        <input type="email" placeholder="Email" id="email" required>
+        <input type="subject" placeholder="Subject" id="subject" required>
+        <textarea id="message" rows="4" placeholder="How can we pray for you?"></textarea>
+        <button onclick="sendMail" type="submit">Send</button>
+    </form>
+</header>
+
+<section id="sec2">
+    <div class="col1">
+        <h1>Navigate</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="background.html">About Us</a></li>
+
+        </ul>
+    </div>
+    <div class="col2">
+        <h1>Other Resources</h1>
+        <ul>
+            <li><a
+                    href="https://www.google.com/maps/dir/34.1079091,-117.5378436/34.10435,-117.56041/@34.1069854,-117.5671749,14z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0">Location</a>
+            </li>
+            <li><a href="https://account.venmo.com/u/The-SecretPlace">Give</a></li>
+        </ul>
+    </div>
+</section>
+
+<section id="foot">
+    <div class="foot-text">
+        <p>The Secret Place</p>
+    </div>
+</section>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+
+</html>

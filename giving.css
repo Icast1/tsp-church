@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    font: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* top-img STARTS HERE */
+
+.top-img {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1653d;
+}
+
+.top-img-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 21px;
+    width: 500px;
+    padding: 25px;
+}
+
+.top-img-text p {
+    font-size: 35px;
+    font-family: 'Bebas Neue';
+}
+
+.top-img-text a {
+    text-decoration: none;
+    padding: 8px 5px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    width: 110px;
+    margin-top: 10px;
+    font-family: 'Bebas Neue';
+    font-weight: 100;
+}
+
+.top-img-text2 img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 40px;
+    display: none;
+}
+
+/* textarea1 STARTS HERE */
+
+.textarea1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.textarea1 h1 {
+    font-family: 'Bebas Neue';
+}
+
+.textarea1 p {
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+/* return STARTS HERE */
+
+.return {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+}
+
+.return a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border-radius: 25px;
+    font-family: 'Bebas Neue';
+}
+
+@media (min-width: 1000px) {
+    .top-img-text p {
+        font-size: 41px;
+    }
+
+    .top-img-text2 img {
+        display: unset;
+    }
+
+    .textarea1 {
+        padding: 100px;
+    }
+
+    .textarea1 h1 {
+        font-size: 40px;
+    }
+}
