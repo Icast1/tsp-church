@@ -24,6 +24,33 @@
 	<stop  offset="0.99" style="stop-color:#9C27B0"/>
 </linearGradient>
 <circle style="fill:url(#SVGID_3_);" cx="393.6" cy="118.4" r="17.056"/>
+
+<!-- // Add click event
+document.getElementById('copy-text').addEventListener('click', function(e){
+  e.preventDefault();
+  
+  // Select the text
+  document.getElementById('text-to-copy').select();
+  
+  var copied;
+  
+  try
+  {
+      // Copy the text
+      copied = document.execCommand('copy');
+  } 
+  catch (ex)
+  {
+      copied = false;  
+  }
+  
+  if(copied) {
+    // Display the copied text message
+    document.getElementById('copied-text').style.display = 'block';    
+  }
+  
+}); -->
+
 <g>
 </g>
 <g>
